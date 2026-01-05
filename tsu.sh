@@ -2,6 +2,7 @@
 # apply patch to tsu in Termux
 
 # Install required packages if not installed
+pkg install root-repo
 pkg install -y tsu patch
 
 # Download and apply the patch
